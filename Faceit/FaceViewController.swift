@@ -13,7 +13,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FaceViewController: VCLLoggingViewController {
 
     @IBOutlet weak var faceView: FaceView! {
         didSet { //happens only one when iOS links to view
